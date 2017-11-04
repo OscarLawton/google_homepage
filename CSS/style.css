@@ -1,0 +1,45 @@
+
+
+#nav_bar{
+  font-family: sans-serif;
+  //background-color: #F546A2;
+  margin:auto;
+  text-align:right;
+}
+
+li{
+  display: inline;
+}
+
+#main_body{
+  display:block;
+     margin:auto;
+     //text-align: center;
+}
+
+#image_wrapper{
+  margin-top: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+#search_bar{
+  text-align: center;
+}
+
+#text{
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 50px:
+}
+input[type=text] {
+    width: 200px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 25%;
+}
